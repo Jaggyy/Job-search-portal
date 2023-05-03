@@ -1,0 +1,117 @@
+/*------------------------------------------------------------------
+Background Color
+-------------------------------------------------------------------*/
+.bg-color,
+.layer.color::before,
+.pricetable > a,
+.pricetable.active,
+.bottom-line.style2{
+    background-color: #141f72 ;
+}
+
+/*------------------------------------------------------------------
+Text Color
+-------------------------------------------------------------------*/
+.text-color,
+.pricetable-head h2,
+.pricetable.active > a{
+    color: #141f72;
+}
+
+/*------------------------------------------------------------------
+Border Color
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+COLOR SCHEME 2
+-------------------------------------------------------------------*/
+
+.forsticky.sticky .post-job-btn{
+	border: 2px solid #fb236a;
+	background: transparent; color: #fb236a;
+}
+.post-job-btn{
+    background-color: #fb236a ; border: 2px solid #fb236a;
+}
+
+.login-btn {
+    float: left;
+    font-family: Open Sans;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px 27px;
+    
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #fb236a;
+    border: 2px solid #fb236a;
+}
+
+.login-btn:hover {
+  background: transparent;
+  color: #fb236a;
+}
+
+
+.bg-color,
+.post-job-btn,
+.account-popup .close-popup,
+.blog-metas a::before{
+    background-color: #fb236a ;
+}
+
+/*------------------------------------------------------------------
+Text Color
+-------------------------------------------------------------------*/
+.text-color,
+.menu-sec nav > ul > li > ul li:hover > a,
+.account-popup > form .cfield i,
+.account-popup > form > a,
+.chosen-container-single .chosen-single div::before,
+.job-field i,
+.chosen-container .chosen-results li.highlighted,
+.active-result.result-selected,
+.scroll-to a,
+.p-category > a p,
+.p-category:hover i,
+.job-title-sec span,
+.blog-metas a,
+.blog-details > a{
+    color: #fb236a ;
+}
+
+/*------------------------------------------------------------------
+Border Color
+-------------------------------------------------------------------*/
+.border-color,
+.select-user > span.active,
+.browse-all-cat a{
+    border-color: #fb236a ;
+}
+
+/*------------------------------------------------------------------
+Button Color
+------------------------------------------------------------------*/
+.fix-gr-bg {
+  background: -webkit-linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+  background: -moz-linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+  background: -o-linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+  background: -ms-linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+  background: linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%);
+  background-size: auto;color: #ffffff;
+  background-size: 200% auto;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  border: none !important;
+}
+
+.fix-gr-bg:hover {
+  background-position: right center;
+  color: #fff !important;
+}

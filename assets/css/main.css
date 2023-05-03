@@ -1,0 +1,50 @@
+/* Hide the file input using
+opacity */
+[type=file] {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.cfield label {
+ 	float: left;
+	width: 100%;
+	background: no-repeat;
+	margin: 0;
+	font-size: 13px;
+	color: #848484;
+	padding: 16px 45px 16px 15px;
+	height: unset;
+	text-align: left;
+}
+
+.cfield label::before {
+	content: none;
+}
+
+.cfield label i {
+	position: absolute;
+	right: 0;
+	top: 15px;
+	right: 20px;
+	font-size: 19px;
+}
+
+.pf-field textarea {
+	color: #474747;
+}
+
+.pf-field textarea::placeholder {
+	color: #848484;
+	opacity: 1;
+}
+
+.account-popup form button {
+	float: left;
+	border-radius: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	width: auto;
+	height: unset;
+	font-size: unset;
+	font-weight: unset;
+}
